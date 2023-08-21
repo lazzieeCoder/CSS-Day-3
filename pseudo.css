@@ -1,33 +1,52 @@
-a{
+/* a{
     text-decoration: none;
     font-size: x-large;
-}
+} */
 /* before visiting the link */
-a:link{
+/* a:link{
      background-color: black;
-}
+} */
 /* while clicking the link */
-a:active{
+/* a:active{
     color: brown;
     background-color: aqua;
-}
+} */
 /* after visiting the link */
-a:visited{
+/* a:visited{
     color: aqua;
     background-color: blueviolet;
-}
+} */
 /* hover effect */
-a:hover{
+/* a:hover{
     color: chartreuse;
     background-color: black;
     zoom: 150%;
-}
+} */
 /* focus */
-.input{
+/* .input{
     color: red;
     background-color: black;
 }
 .input:focus{
     color: red;
     background-color: black;
+} */
+/* example for child elements */
+/* div{
+    background-color: black;
+    color: aliceblue;
 }
+p{
+    text-align: justify;
+}
+
+p:nth-child(1){
+    background-color: brown;
+    color: aqua;
+    text-align: end;
+}
+div>p:nth-child(3){
+    background-color: brown;
+    color: aqua;
+    text-align: end;
+} */
