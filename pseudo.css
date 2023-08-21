@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    font-size: x-large;
+}
+/* before visiting the link */
+a:link{
+     background-color: black;
+}
+/* while clicking the link */
+a:active{
+    color: brown;
+    background-color: aqua;
+}
+/* after visiting the link */
+a:visited{
+    color: aqua;
+    background-color: blueviolet;
+}
+/* hover effect */
+a:hover{
+    color: chartreuse;
+    background-color: black;
+    zoom: 150%;
+}
+/* focus */
+.input{
+    color: red;
+    background-color: black;
+}
+.input:focus{
+    color: red;
+    background-color: black;
+}
